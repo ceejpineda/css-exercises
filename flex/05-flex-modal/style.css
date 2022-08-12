@@ -9,6 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
+  font-size: 14px;
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
@@ -16,10 +17,21 @@ body {
 }
 
 .modal {
+  display: flex;
+  justify-content: center;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+  gap: 10px
+}
+
+.centermodal{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 400px;
 }
 
 .icon {
@@ -46,6 +58,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.header{
+  font-weight: bold;
+  font-size: 20px;
 }
 
 button {
